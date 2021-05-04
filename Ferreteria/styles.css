@@ -1,0 +1,65 @@
+header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: darkseagreen;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 10px;
+  color: beige;
+}
+#botonera {
+  margin-top: 30px;
+}
+#botonera a {
+  text-decoration: none;
+  margin: 10px;
+  color: beige;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+#catalogo {
+  margin: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+th {
+  background-color: grey;
+}
+footer {
+  background-color: darkseagreen;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+ul#enlaces li {
+  display: inline;
+  margin: 0px 20px 0px 20px;
+}
+ul#enlaces li a {
+  text-decoration: none;
+  color: beige;
+}
+.producto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px;
+  justify-content: space-evenly;
+}
+img {
+  max-width: 30px;
+}
+button {
+  max-height: 30px;
+  max-width: 30px;
+  margin: 5px 40px;
+}
+#cesta {
+  border: 2px solid darkseagreen;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 15px;
+}
